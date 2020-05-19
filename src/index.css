@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hpv2_logo {
+    float: left;
+    padding-right: 24px;
+    padding-top: 10px;
+}
+.hpv2_logo a img {
+    height: 26px;
+}
+
+.Component-root-18.Component-selected-19 {
+    color: #e56399 !important;
+    font-weight: 500;
+}
+
+.Component-root-18:hover {
+    color: #e56399 !important;
+    opacity: 1;
+}
+
+.WithStyles\(ForwardRef\(Tabs\)\)-indicator-6 {
+    background-color: #e56399 !important;
+}
+
+.hpv2_menu {
+    float: right;
+    margin: 0;
+}
+.hpv2_menu_logout {
+    float: left;
+    width: 100%;
+}
+
+.paddingBottom {
+  padding-bottom: 15px;
+}
+
+.column {
+  float: left;
+  width: 35%;
+}
+
+.marginLeft{
+  margin-left: -235px;
+  padding-top: 14px;
+}
+
+.paddingTop{
+   padding-top: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.MuiInputBase-input {
+    height: 0.1876em !important;
+}
+
+.divWidth{
+  width:75%;
+}
+
+.MuiOutlinedInput-inputMarginDense {
+    width: 100px !important;
+}
+
+.imagesColumn {
+  float: left;
+  width: 48.33%;
+  padding: 5px;
+}
+
+.imageWidth{
+  width: 100%;
+  display: flex;
+}
+
+.imageComponent{
+  width:100% ; 
+  display:flex;
+}
+
+.googleImg{
+  width: 90%;
+  height: 90%;
+}
+
+.tabWidth{
+  width: 70% !important;
+}
+
+.loginMenu{
+  width: 30% !important;
+}
