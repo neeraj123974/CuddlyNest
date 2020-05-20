@@ -6,6 +6,7 @@ import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
 import TextField from '@material-ui/core/TextField';
 import InputAdornment from '@material-ui/core/InputAdornment';
+import DatetimeRangePicker from 'react-datetime-range-picker';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -64,16 +65,8 @@ export default function CustomizedInputBase() {
           />
         </Paper>
       </div>
-      <div className="column paddingTop">
-        <TextField
-          id="date"
-          type="date"
-          defaultValue="2017-05-24"
-          className={classes.textField}
-          InputLabelProps={{
-            shrink: true,
-          }}
-        />
+      <div className="column datePickerDiv paddingTop">
+        <DatetimeRangePicker dateFormat="DD-MMM-YYYY" closeOnSelect = {true} timeFormat={false}/>
       </div>
       <div className="column marginLeft">
         <TextField

@@ -51,10 +51,11 @@ code {
 .column {
   float: left;
   width: 35%;
+  margin-left: 15px;
 }
 
 .marginLeft{
-  margin-left: -235px;
+  margin-left: -162px;
   padding-top: 14px;
 }
 
@@ -75,6 +76,7 @@ code {
 
 .divWidth{
   width:75%;
+  margin-left: 10px;
 }
 
 .MuiOutlinedInput-inputMarginDense {
@@ -108,4 +110,41 @@ code {
 
 .loginMenu{
   width: 30% !important;
+}
+
+.MuiFormControl-root {
+    margin-right: 2px !important;
+}
+
+.form-control{
+  width: 115px !important;
+}
+
+.datePickerDiv > div {
+  display: flex;
+}
+
+.MuiTypography-h5 {
+    font-size: 1.0rem !important;
+}
+
+.MuiTypography-gutterBottom {
+    display: flex;
+}
+.paddingLeft{
+  padding-left: 70px;
+}
+.ratingPadding{
+  padding-left: 10px;
+}
+.ratingColor{
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  color: #b3b1b4;
+}
+
+.checked {
+  color: #b3b1b4;
 }

@@ -17,7 +17,7 @@ const useStyles = makeStyles({
 
 export default function HotelImages(props) {
   const classes = useStyles();
-  const {src , title} = props
+  const {src , title , amount} = props
   return (
     <div className="imagesColumn">
       <Card className={classes.root}>
@@ -29,7 +29,15 @@ export default function HotelImages(props) {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              {title}
+              <div>{title}</div><div className='paddingLeft'>{amount}</div>
+            </Typography>
+            <Typography gutterBottom variant="h5" component="h2">
+              <div className='ratingColor'>{'Hotel'}</div>
+              <div className='ratingPadding'>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+                <span className="fa fa-star checked"></span>
+              </div>
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -37,3 +45,4 @@ export default function HotelImages(props) {
     </div>
   );
 }
+
